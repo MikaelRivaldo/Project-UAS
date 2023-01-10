@@ -1,5 +1,3 @@
-
-
 from view import input_nilai, view_nilai
 from model import daftar_nilai
 
