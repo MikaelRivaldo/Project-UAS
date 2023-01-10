@@ -74,7 +74,8 @@ Di program utama ini terdapat modul yg di import ke file `from view import input
 
 
 #### Contoh tampilan menu :
-![1](Picture/Gambar1.png)
+![gambar1](https://user-images.githubusercontent.com/115770247/211619012-91d9756f-85fa-43f0-bde0-20c61810c831.png)
+
 
 ### 2. `daftar_nilai.py`
 Di dalam file daftar nilai ini terdapat sourcecode `input("[(T)ambah, (C)ari, (H)apus, (U)bah] ")`
@@ -152,14 +153,18 @@ class Data_mahasiswa:
 Pada bagian dari `daftar_nilai.py` berisi program dengan perintah menambahkan data, hapus data, ubah data NIM,
 dan mencari salah satu data yg sudah di input.
 
-#### Tampilan output tambah data :
-![2](Picture/Gambar2.png)
-#### Tampilan output hapus data :
-![3](Picture/Gambar3.png) 
-#### Tampilan output ubah NIM :
-![4](Picture/Gambar4.png)
-#### Tampilan output cari data :
-![5](Picture/Gambar5.png)
+#### Contoh Tampilan Output Tambah Data :
+![gambar2](https://user-images.githubusercontent.com/115770247/211619507-e7a14e38-faf1-447d-9678-d1536bef0f91.png)
+
+#### Tampilan Output Hapus Data :
+![gambar3](https://user-images.githubusercontent.com/115770247/211619751-4fb8efd6-1715-4145-9363-742125a81613.png)
+
+#### Contoh Tampilan Output Ubah NIM :
+![gambar4](https://user-images.githubusercontent.com/115770247/211619875-e0b3dc93-483a-407e-ae03-8868cfa93eeb.png)
+
+#### Tampilan Output Cari Data :
+![gambar5](https://user-images.githubusercontent.com/115770247/211619933-8c94926f-3a82-48fa-9cf8-bc9db5374fb8.png)
+
 
 
 ### 3. `view_nilai.py` berisi sourcode yg berfungsi menampilkan seluruh data
@@ -210,4 +215,5 @@ Di program ini terdapat modul yg menyambungkann `input_nilai.py` kedalam file pr
 dengan syntax `from model import daftar_nilai`. Fitur ini khusus untuk menginput nilai
 
 #### Tampilan output `input_nilai.py` :
-![6](Picture/Gambar6.png)
+![gambar6](https://user-images.githubusercontent.com/115770247/211620015-9a076df5-c46b-4cef-a263-05d169971c97.png)
+
