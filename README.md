@@ -149,23 +149,24 @@ class Data_mahasiswa:
             print("NAMA {0} TIDAK ADA!".format(nama))
 ```
 
-## Penjelasan 
+### Penjelasan 
 Pada bagian dari `daftar_nilai.py` berisi program dengan perintah menambahkan data, hapus data, ubah data NIM,
 dan mencari salah satu data yg sudah di input.
 
-## Contoh Tampilan Output Tambah Data :
-   # Dengan Menginput "T" Seperti gambar dibawah ini
+### Contoh Tampilan Output Tambah Data :
+   ## Dengan Menginput "T" Seperti gambar dibawah ini
 ![gambar2](https://user-images.githubusercontent.com/115770247/211619507-e7a14e38-faf1-447d-9678-d1536bef0f91.png)
 
 ### Tampilan Output Hapus Data :
-   # Dengan Menginput "H" Seperti gambar dibawah ini
+   ## Dengan Menginput "H" Seperti gambar dibawah ini
 ![gambar3](https://user-images.githubusercontent.com/115770247/211619751-4fb8efd6-1715-4145-9363-742125a81613.png)
 
 #### Contoh Tampilan Output Ubah NIM :
-   # Dengan menginput "U" Seperti gambar dibawah ini
+   ## Dengan menginput "U" Seperti gambar dibawah ini
 ![gambar4](https://user-images.githubusercontent.com/115770247/211619875-e0b3dc93-483a-407e-ae03-8868cfa93eeb.png)
 
 #### Tampilan Output Cari Data :
+   ## Dengan menginput "C" Seperti gambar dibawah ini
 ![gambar5](https://user-images.githubusercontent.com/115770247/211619933-8c94926f-3a82-48fa-9cf8-bc9db5374fb8.png)
 
 
@@ -214,8 +215,8 @@ def nilai():
             print("NAMA {0} TIDAK ADA! / ANDA BELUM MENAMBAH DATA".format(input_nama))
 ```
 ### Penjelasan 
-Di program ini terdapat modul yg menyambungkann `input_nilai.py` kedalam file program `daftar_nilai.py` 
-dengan syntax `from model import daftar_nilai`. Fitur ini khusus untuk menginput nilai
+Di program ini terdapat modul yg menghubungkan `input_nilai.py` kedalam file program `daftar_nilai.py` 
+dengan syntax `from model import daftar_nilai`. Source Kodegh' ini khusus untuk menginput nilai
 
 #### Tampilan output `input_nilai.py` :
 ![gambar6](https://user-images.githubusercontent.com/115770247/211620015-9a076df5-c46b-4cef-a263-05d169971c97.png)
