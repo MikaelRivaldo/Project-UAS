@@ -15,7 +15,7 @@ memasukkan data.
 pilihan yang memanggil semua menu
 yang ada)
 
-### 1. `main.py` Berisi program utama dengan menu `menu = input("[(T)ambah, (I)nputNilai, (L)ihat, (C)ari, (H)apus, (U)bah, (K)eluar] : ")`
+### 1. `main.py` Berisi program Ptama Dengan Menu Seperti `menu = input("[(T)ambah, (I)nputNilai, (L)ihat, (C)ari, (H)apus, (U)bah, (K)eluar] : ")`
 
 ``` Python
 from view import input_nilai, view_nilai
@@ -154,12 +154,15 @@ Pada bagian dari `daftar_nilai.py` berisi program dengan perintah menambahkan da
 dan mencari salah satu data yg sudah di input.
 
 ## Contoh Tampilan Output Tambah Data :
+   # Dengan Menginput "T" Seperti gambar dibawah ini
 ![gambar2](https://user-images.githubusercontent.com/115770247/211619507-e7a14e38-faf1-447d-9678-d1536bef0f91.png)
 
-#### Tampilan Output Hapus Data :
+### Tampilan Output Hapus Data :
+   # Dengan Menginput "H" Seperti gambar dibawah ini
 ![gambar3](https://user-images.githubusercontent.com/115770247/211619751-4fb8efd6-1715-4145-9363-742125a81613.png)
 
 #### Contoh Tampilan Output Ubah NIM :
+   # Dengan menginput "U" Seperti gambar dibawah ini
 ![gambar4](https://user-images.githubusercontent.com/115770247/211619875-e0b3dc93-483a-407e-ae03-8868cfa93eeb.png)
 
 #### Tampilan Output Cari Data :
