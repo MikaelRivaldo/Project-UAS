@@ -15,7 +15,7 @@ memasukkan data.
 pilihan yang memanggil semua menu
 yang ada)
 
-### 1. `main.py` Berisi program Ptama Dengan Menu Seperti `menu = input("[(T)ambah, (I)nputNilai, (L)ihat, (C)ari, (H)apus, (U)bah, (K)eluar] : ")`
+### 1. `main.py` Berisi program Pertama Dengan Menu Seperti `menu = input("[(T)ambah, (I)nputNilai, (L)ihat, (C)ari, (H)apus, (U)bah, (K)eluar] : ")`
 
 ``` Python
 from view import input_nilai, view_nilai
@@ -165,7 +165,7 @@ dan mencari salah satu data yg sudah di input.
    ## Dengan menginput "U" Seperti gambar dibawah ini
 ![gambar4](https://user-images.githubusercontent.com/115770247/211619875-e0b3dc93-483a-407e-ae03-8868cfa93eeb.png)
 
-#### Tampilan Output Cari Data :
+#### Contoh Tampilan Output Cari Data :
    ## Dengan menginput "C" Seperti gambar dibawah ini
 ![gambar5](https://user-images.githubusercontent.com/115770247/211619933-8c94926f-3a82-48fa-9cf8-bc9db5374fb8.png)
 
@@ -189,8 +189,7 @@ def lihat():
         print(f"Nilai TUGAS   : {data.tugas[i]}")
 ```
 ### Penjelasan 
-Di program ini terdapat modul yg menyambungkan `view_nilai.py` kedalam file program `daftar_nilai.py` 
-dengan syntax `from model import daftar_nilai`. Fungsi ny mirip seperti `input = "[(C)ari]"`, tapi fitur ini menampilkan
+Di program ini terdapat modul yg menyambungkan antara `view_nilai.py` kedalam file program `daftar_nilai.py` Dengan syntax `from model import daftar_nilai`. Fungsi ny mirip seperti `input = "[(C)ari]"`, tapi fitur ini menampilkan
 seluruh data yg sudah di input.
 
 ### 4. `input_nilai.py` berisi code yg berfungsi untuk menginput data yaitu nilai
@@ -215,9 +214,10 @@ def nilai():
             print("NAMA {0} TIDAK ADA! / ANDA BELUM MENAMBAH DATA".format(input_nama))
 ```
 ### Penjelasan 
-Di program ini terdapat modul yg menghubungkan `input_nilai.py` kedalam file program `daftar_nilai.py` 
+Di program ini terdapat modul yang menghubungkan `input_nilai.py` kedalam file program `daftar_nilai.py` 
 dengan syntax `from model import daftar_nilai`. Source Kodegh' ini khusus untuk menginput nilai
 
-#### Tampilan output `input_nilai.py` :
+#### Contoh Tampilan output `input_nilai.py` :
 ![gambar6](https://user-images.githubusercontent.com/115770247/211620015-9a076df5-c46b-4cef-a263-05d169971c97.png)
+
 
