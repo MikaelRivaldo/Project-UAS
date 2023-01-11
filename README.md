@@ -149,11 +149,11 @@ class Data_mahasiswa:
             print("NAMA {0} TIDAK ADA!".format(nama))
 ```
 
-### Penjelasan 
+## Penjelasan 
 Pada bagian dari `daftar_nilai.py` berisi program dengan perintah menambahkan data, hapus data, ubah data NIM,
 dan mencari salah satu data yg sudah di input.
 
-#### Contoh Tampilan Output Tambah Data :
+## Contoh Tampilan Output Tambah Data :
 ![gambar2](https://user-images.githubusercontent.com/115770247/211619507-e7a14e38-faf1-447d-9678-d1536bef0f91.png)
 
 #### Tampilan Output Hapus Data :
