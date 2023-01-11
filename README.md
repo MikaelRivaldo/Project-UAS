@@ -73,7 +73,7 @@ Di program utama ini terdapat modul yg di import ke file `from view import input
 `from model import daftar_nilai`. Modul memungkinkan Anda menulis kode yang terdiri dari beberapa file dan membaginya menjadi bagian-bagian yang lebih kecil, yang dapat diimport sesuai kebutuhan.
 
 
-#### Contoh tampilan menu :
+#### Contoh Tampilan Menu :
 ![gambar1](https://user-images.githubusercontent.com/115770247/211619012-91d9756f-85fa-43f0-bde0-20c61810c831.png)
 
 
